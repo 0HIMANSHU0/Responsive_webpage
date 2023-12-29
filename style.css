@@ -1,0 +1,101 @@
+html {
+ scroll-behavior: smooth;
+}
+
+.copyright {
+ width: 100%;
+ text-align: center;
+ padding: 10px 0px;
+ background: #262626;
+ font-weight: 300px;
+ margin-top: 20px;
+ color: white;
+}
+
+.copyright i {
+ color: #ff004f;
+}
+
+@media only screen and (max-width: 768px) {
+
+ .navLogoTxt{
+  font-size: 14px
+ };
+
+ .nav-link {
+  font-size: 14px;
+ }
+
+ .card-body {
+  padding: 8px 2px !important;
+  margin-bottom: 2px;
+ }
+
+ .card-title {
+  font-size: small !important;
+ }
+
+ .card-text {
+  font-size: 12px;
+ }
+
+ .crouseSliderHeading {
+  font-size: 18px;
+ }
+
+ .btn {
+  font-size: 12px;
+  /* margin: 1px 4px; */
+  padding: 2px 10px;
+ }
+
+ .AboutSection p {
+  font-size: 12px;
+ }
+
+ .aboutHeading {
+  font-size: 18px;
+ }
+
+ .aboutSubheading {
+  font-size: 14px;
+ }
+
+ .serviceHeading {
+  font-size: 18px;
+ }
+
+ .serviceSubheading {
+  font-size: 14px;
+ }
+
+ .serviceLiHeading {
+  font-size: 13px;
+ }
+
+ .serviceSection p {
+  font-size: 12px;
+ }
+
+ .contactHeading {
+  font-size: 18px;
+ }
+
+ .contactSubheading {
+  font-size: 14px;
+ }
+
+ .copyright {
+  font-size: 10px;
+  padding: 5px 0px;
+ }
+
+ .formtxt {
+  font-size: 12px;
+ }
+
+ .form-control {
+  font-size: 12px;
+ }
+
+}
